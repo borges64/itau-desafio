@@ -1,0 +1,11 @@
+{
+  "name": "desafio-banco-itau",
+  "version": "1.0.0",
+  "description": "Desafio backend ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro Victor",
+  "license": "ISC"
+}
