@@ -1,10 +1,15 @@
 import fastifyJwt from "@fastify/jwt";
 import Fastify from "fastify"
+import UserRoutes from "./routes/userRoutes";
+
+
+
 const server = Fastify();
 
 server.register(fastifyJwt, {
     secret: "supersecret"
 })
+server.register(UserRoutes)
 server.listen({
     port: 3000
 }, (err, address) => {
